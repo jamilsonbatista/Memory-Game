@@ -1,0 +1,4 @@
+#Jamilson Batista
+#Crie a base de dados conforme arquivo bd_memory_game.sql e configure em database.php
+#Para visualizar aplicativo no facebook terá que criar um app em developers, e configurar o appId e secret conforme sua aplicação.
+#Crie um redirect no facebook de acordo sua URL de acesso.
