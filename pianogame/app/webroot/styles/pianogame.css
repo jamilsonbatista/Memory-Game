@@ -1,0 +1,152 @@
+/* ------------------------------------
+    Author: Jamilson Batista
+    Ultima Atualização: 18/07/20011
+    Alterado Por:
+------------------------------------ */
+* {
+	padding: 0px;
+	margin: 0px;
+	outline: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+body {
+ background-color: #EEEEEE;	
+}
+
+#innerContent {
+	width: 700px;
+	margin: auto; 
+	height: 700px;
+}
+
+#innertop {
+	background-color: #87CEEB;
+	width: 700px;
+	height: 48px;
+	margin-top: 20px;
+	float: left;
+}
+
+#menu {
+	background-color: #4682B4;
+	width: 700px;
+	height: 50px;
+	float: left;
+}
+#menu p { 
+	color: #FFFFFF;
+	font-family: Arial,Helvetica,sans-serif;
+	margin-top: 10px;
+	padding-left: 35px;
+	width: 184px;
+	display: inline;
+	font-size: 18px;
+	float: left;
+}
+#menu p span { 
+	font-size: 18px;
+	font-style: italic;
+}
+#menu #errors {
+	padding-left: 0px;
+	width: 224px;
+	text-align: center;	
+}
+#menu #time {
+	text-align: right;	
+}
+#innerGame {
+	background-color: #CAE1FF;
+	width: 700px;
+	height: auto;
+	float: left;	
+}
+#innerGame #victory {
+	background-image: url("../images/victory.png");
+	background-repeat: no-repeat;
+	width: 129px;
+	height: 244px;
+	display: none;
+	margin: auto;
+}
+#innerGame #nums {
+	width: 400px;
+	height: 20px;
+	padding-top: 20px;
+	margin: auto;
+}
+#innerGame #numCards {
+	width: 400px;
+	height: 20px;
+	margin: auto;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+#innerGame #numCards option {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: left;
+}
+#innerGame #cardGame {
+	width: 635px;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+#cardGame #card_top {
+	background-color: #87CEEB;
+	width: 635px;
+	height: 22px;
+	float: left;	
+}
+#cardGame #cardInnerGame {
+	background-color: #CAE1FF;
+	width: 635px;
+	height: auto;
+	float: left;	
+}
+#cardGame #cardInnerGame #memoryGame {
+	width: 590px;
+	height: auto;
+	margin: auto;	
+}
+#cardGame #cardInnerGame #memoryGame ul {
+	float: left;
+	width: 590px;
+}
+#cardGame #cardInnerGame #memoryGame ul li{
+	float: left;
+	width: 60px;
+	height: 80px;
+	margin: 12px;
+	list-style: none;
+}
+#cardGame #cardInnerGame #memoryGame .controlFlipbox {
+	float: left;
+	width: 60px;
+	height: 80px;
+	background-color: #00008B;
+	cursor: pointer;
+	border: 2px groove #000000;
+}
+#cardGame #card_footer {
+	background-color: #4682B4;
+	width: 635px;
+	height: 23px;
+	float: left;	
+}
+#hits {
+	float: left;
+}
+#face{
+float: right;
+}
+#innertop #ranking{
+float: right;
+}
